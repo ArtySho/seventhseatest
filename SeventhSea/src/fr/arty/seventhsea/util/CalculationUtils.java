@@ -71,9 +71,9 @@ public class CalculationUtils {
 	}
 
 	/**
-	 * 
-	 * @param dices
-	 * @return
+	 * Calcul la prochaine mise valide.
+	 * @param dices Liste des dés à prendre en compte.
+	 * @return Une mise valide.
 	 */
 	public static Raise getARaise(DicesSet dices) {
 		Raise raise = null;
